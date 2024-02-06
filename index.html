@@ -17,6 +17,8 @@ Author URL: http://w3layouts.com
         rel="stylesheet">
     <!-- //google-fonts -->
 
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-liberty.css">
 
@@ -68,7 +70,7 @@ Author URL: http://w3layouts.com
         <nav class="navbar navbar-expand-lg stroke">
             <h1>
                 <a class="navbar-brand" href="index.html">
-                    <span class="fa fa-car Parking"></span> Parkinggo
+                    <img src="./assets/images/Parkinggo Logo/parkinggo-high-resolution-logo-transparent.png" class="w-[144px] lg:w-[244px]"/>
                 </a>
             </h1>
             <!-- if logo is image enable this   
@@ -146,13 +148,20 @@ Author URL: http://w3layouts.com
 <section id="home" class="w3l-banner py-5">
     <div class="container py-lg-5 py-md-4">
         <div class="py-lg-5 py-4">
-            <div class="banner-info-grid">
-                <h3 class="mb-4"><sup></sup> Parkinggo, come park with us! </h3>
+            <div class="banner-info-grid" style="max-width: none;">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vuPZecLCqcVbfVSNwieoGuRn6cJdais&ehbc=2E312F" class="w-[100%] h-[450px] md:h-[100%] lg:h-[100%] p-[24px] rounded-[24px]""></iframe>
+                    </div>
+                    <div>
+                        <h3 class="mb-4"><sup></sup> Parkinggo, come park with us! </h3> 
+                        <!-- <a class="btn btn-secondary btn-style mt-5 me-2" href="#discover"> Discover Now </a> -->
+                        <a class="btn btn-style transparent-btn mt-5" href="https://api.whatsapp.com/send/?phone=917207605634"> Contact Valet </a>
+                    </div>
+                </div>   
                 <!-- <p>Lorem ipsum dolor sit amet elit. Provident.
                     fugit odit? Fugit ipsam. Sed ac ex. Nam mauris velit, ac
                     cursus quis, leo. Non quae, fugiat nihil ad, in ligula.</p> -->
-                <a class="btn btn-secondary btn-style mt-5 me-2" href="#discover"> Discover Now </a>
-                <a class="btn btn-style transparent-btn mt-5" href="https://api.whatsapp.com/send/?phone=917207605634"> Contact Valet </a>
             </div>
         </div>
     </div>
